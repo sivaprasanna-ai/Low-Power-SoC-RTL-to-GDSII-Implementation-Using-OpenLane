@@ -1,1 +1,20 @@
+{
+    "DESIGN_NAME": "lowpower_soc",
 
+    "VERILOG_FILES": [
+        "dir::src/lowpower_soc.v",
+        "dir::src/simple_cpu.v",
+        "dir::src/simple_ram.v",
+        "dir::src/gpio_interface.v",
+        "dir::src/timer.v"
+    ],
+
+    "CLOCK_PORT": "clk",
+    "CLOCK_PERIOD": 10.0,
+
+    "DESIGN_IS_CORE": true,
+
+    "FP_SIZING": "relative",
+
+    "PL_TARGET_DENSITY": 0.65
+}
